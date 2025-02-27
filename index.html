@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box stopwatch-box">
+            <h2>Stopwatch</h2>
+            <p id="time">00:00:00</p>
+            <button id="startStop" class="start-button">Start</button>
+            <button id="reset" class="reset-button">Reset</button>
+        </div>
+
+        <div class="box slider-box">
+            <h2>Slider</h2>
+            <input type="range" id="slider" min="0" max="100" value="50">
+            <p>Waarde: <span id="sliderValue">50</span></p>
+        </div>
+
+        <div class="box dynamic-content-box">
+            <h2>Dynamische Content</h2>
+            <button id="loadingcontent">Laad Content</button>
+            <div id="content"></div>
+        </div>
+        
+    </div>
+</body>
+</html>
