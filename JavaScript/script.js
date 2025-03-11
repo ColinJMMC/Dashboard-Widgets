@@ -56,7 +56,7 @@ slider.addEventListener('input', function() {
 const contentDiv = document.getElementById('content');
 const loadBtn = document.getElementById('loadingcontent');
 
-fetch('/JSON/content.json')
+fetch('JSON/content.json')
     .then(res => res.json())
     .then(data => {
         let index = 0;
