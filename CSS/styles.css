@@ -126,4 +126,17 @@ button:hover {
     transition: font-size 0.2s;
 }
 
+.content-button {
+    background-color: blue;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s;
+}
 
+.content-button:hover {
+    background-color: #0056b3;
+}
